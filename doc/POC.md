@@ -78,9 +78,8 @@ kubectl get svc
 | Web Interface | ✅ Accessible at `localhost:8080` |
 
 **GIF Demo (to be inserted here):**
-```markdown
+
 ![ArgoCD Demo](./argo-demo.gif)
-```
 
 ---
 
