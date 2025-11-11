@@ -5,7 +5,11 @@ metadata:
   labels:
     app: asciiartify
 spec:
+<<<<<<< HEAD
   replicas: 1
+=======
+  replicas: 1
+>>>>>>> 6a8e1f4 (AgroCD Pod Chandges)
   selector:
     matchLabels:
       app: asciiartify
