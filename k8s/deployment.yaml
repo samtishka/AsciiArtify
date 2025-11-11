@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: asciiartify
+  labels:
+    app: asciiartify
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: asciiartify
+  template:
+    metadata:
+      labels:
+        app: asciiartify
+    spec:
+      containers:
+      - name: asciiartify
+        image: nginx:latest
+        ports:
+        - containerPort: 80
