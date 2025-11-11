@@ -5,11 +5,7 @@ metadata:
   labels:
     app: asciiartify
 spec:
-<<<<<<< HEAD
-  replicas: 1
-=======
-  replicas: 1
->>>>>>> 6a8e1f4 (AgroCD Pod Chandges)
+  replicas: 4
   selector:
     matchLabels:
       app: asciiartify
@@ -19,7 +15,7 @@ spec:
         app: asciiartify
     spec:
       containers:
-      - name: asciiartify
-        image: nginx:latest
-        ports:
-        - containerPort: 80
+        - name: asciiartify
+          image: nginx:latest
+          ports:
+            - containerPort: 80
