@@ -79,7 +79,7 @@ kubectl get svc
 
 **GIF Demo (to be inserted here):**
 ```markdown
-![ArgoCD Demo](argo-demo.gif)
+![ArgoCD Demo](./argo-demo.gif)
 ```
 
 ---
